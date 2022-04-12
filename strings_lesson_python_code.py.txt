@@ -1,0 +1,6 @@
+string = input("please write something")
+number = int(input("How many letters do you want from each end?"))
+if(number <= len(string)):
+  print(string[:number] + string[-number:])
+else:
+  print("this number is too large!")
